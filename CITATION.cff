@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following format."
+authors:
+  - family-names: Zhang
+    given-names: Sanbao
+type: software
+version: 1.0.0
+license: MIT
+repository-code: https://github.com/Tin11Mn/ASD-GraphNet-Audit
+date-released: 2024-10-28
+url: https://github.com/Tin11Mn/ASD-GraphNet-Audit
+title: "ASD-GraphNet-Audit: Strict Evaluation of Graph-Based ASD Classification on ABIDE"
+abstract: >
+  This project audits the performance of graph-based machine learning methods 
+  on the ABIDE dataset for autism spectrum disorder (ASD) classification. 
+  We reveal significant data leakage in existing pipelines and provide a 
+  strict no-leakage baseline of 58.12%.
+keywords:
+  - autism
+  - brain-network-graph-net
+  - neuroimaging
+  - data-leakage
+  - machine-learning

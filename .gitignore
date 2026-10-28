@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & Cache (CRITICAL)
+data/raw/
+data/processed/
+data/cache/
+*.nii
+*.nii.gz
+*.csv  # 原始数据文件，除非是示例
+outputs/
+v15_out/
+v16_out/
+logs/
+*.log
+
+# Results (keep only aggregated summaries)
+!results/clean/site_summary.csv
+!results/clean/predictions.csv
+!results/clean/threshold_diagnostic.csv
+!results/clean/leak_attribution.csv
+!results/clean/conflict_analysis.csv
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.cache/
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backup
+*.bak
+*.backup
